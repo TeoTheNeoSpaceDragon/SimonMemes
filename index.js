@@ -1,3 +1,5 @@
+alert("To play the game, simply repeat the pattern of the memes. Good luck!");
+
 var buttonImages = ["meme1", "meme2", "meme3", "meme4", "meme5", "meme6"];
 
 var gamePattern = [];
