@@ -55,7 +55,7 @@ function nextSequence() {
   gamePattern.push(randomChosenMeme);
 
   $("#" + randomChosenMeme).fadeIn(100).fadeOut(100).fadeIn(100);
-  $("img.level-img").attr("src", "level" + level + ".jpg")
+  $("img.level-img").attr("src", "level" + level + ".JPG")
   playSound(randomChosenMeme);
 }
 
