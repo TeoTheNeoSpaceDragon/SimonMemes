@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  background-color: #3BACB6;
+}
+
+h1{
+  color: #FFEF82;
+  font-family: 'DynaPuff', cursive;
+  font-size: 5rem;
+  margin: 5%;
+}
+
+p{
+  margin-top: 5%;
+  font-family: 'DynaPuff';
+  color: white;
+}
+
+.header img{
+  float: left;
+  width: 5%;
+  height: 5%;
+  margin-left: 20%;
+}
+
+.header h1{
+  position: relative;
+  margin-right: 20%;
+}
+
+.btn{
+  margin: auto;
+  display: inline-block;
+  height: 12rem;
+  width: 12rem;
+  border: 2px solid black;
+  border-style: hidden;
+}
+
+.img-fluid{
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  display:block;
+  width: 50%;
+  margin: auto;
+}
+
+.pressed{
+  box-shadow: 0 0 100px  yellow;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
